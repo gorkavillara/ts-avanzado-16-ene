@@ -210,3 +210,5 @@ class AlumnoCustom {
 
 const miAlumno = new AlumnoCustom()
 console.log(miAlumno.toString())
+
+export {}

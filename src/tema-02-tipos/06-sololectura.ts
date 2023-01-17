@@ -15,3 +15,5 @@ console.log(miCaballo.nombre)
 miCaballo.nombre = "Rey"
 
 console.log(miCaballo.nombre)
+
+export {}

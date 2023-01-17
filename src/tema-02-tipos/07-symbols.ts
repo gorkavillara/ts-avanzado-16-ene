@@ -15,3 +15,4 @@ const miSimbolo: unique symbol = Symbol("Mi símbolo único")
 
 console.log(typeof miSimbolo)
 
+export {}
