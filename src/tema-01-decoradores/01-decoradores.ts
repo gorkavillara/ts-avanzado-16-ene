@@ -6,8 +6,8 @@ function decoradorDeClase(constructor: Function) {
 }
 
 // Propiedades
-function decoradorDePropiedad(target: any, propertyName: string) {
-    console.log(`Propiedad: ${propertyName}`)
+function decoradorDePropiedad(target: any, propertyName: string | symbol) {
+    console.log(`Propiedad: ${propertyName.toString()}`)
 }
 function otroDecoradorDePropiedad(target: any, propertyName: string) {
     // if (typeof target === "function") { // Esto es lo que ocurre en propiedades estáticas
@@ -106,3 +106,4 @@ for (let key in miAlumno) {
 }
 
 // miAlumno.ponMiNombreEnOrden(18)
+export {}
