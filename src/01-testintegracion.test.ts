@@ -15,7 +15,7 @@ describe("Hacemos llamadas a API simuladas", () => {
 
     it("Debería obtener información de la fuente simulada", async () => {
         const data = await fetchData()
-        expect(data).toEqual({ cantante: "Rosalía tra tra" })
+        expect(data).toEqual({ cantante: "Julio Iglesias" })
         expect(axios.get).toBeCalled()
         expect(axios.get).toBeCalledWith("https://mi-servicio-web.com/data")
     })
