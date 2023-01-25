@@ -1,9 +1,11 @@
 {
   "name": "gorkavi87-mi-primera-libreria",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Creando y subiendo mi primera librería",
   "main": "public/index.js",
-  "files": ["public"],
+  "files": [
+    "public"
+  ],
   "scripts": {
     "dev": "tsc --watch",
     "build": "webpack --mode production",
