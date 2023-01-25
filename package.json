@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "tsc --watch",
     "compile": "tsc",
-    "test": "jest --watchAll",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
     "test:coverage": "jest --coverage"
   },
   "keywords": [],
