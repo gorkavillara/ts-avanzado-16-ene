@@ -1,4 +1,4 @@
 import { factorial } from "./controllers";
 import { Libro } from "./models";
 
-export { Libro }
+export { Libro, factorial }
