@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "axios": "^1.2.4",
-    "gorkavi87-mi-primera-libreria": "^1.0.0",
+    "gorkavi87-mi-primera-libreria": "^1.0.1",
     "reflect-metadata": "^0.1.13"
   }
 }
