@@ -1,4 +1,5 @@
-import { factorial } from "./controllers";
-import { Libro } from "./models";
+import { Libro } from "gorkavi87-mi-primera-libreria"
 
-export { Libro }
+const miPrimerLibro = new Libro("El color de la magia", "Terry Pratchett")
+
+miPrimerLibro.obtenDatos()

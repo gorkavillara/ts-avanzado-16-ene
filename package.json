@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Creando y subiendo mi primera librería",
   "main": "public/index.js",
-  "files": ["public"],
+  "files": [
+    "public"
+  ],
   "scripts": {
     "dev": "tsc --watch",
     "build": "webpack --mode production",
@@ -28,6 +30,7 @@
   },
   "dependencies": {
     "axios": "^1.2.4",
+    "gorkavi87-mi-primera-libreria": "^1.0.0",
     "reflect-metadata": "^0.1.13"
   }
 }
