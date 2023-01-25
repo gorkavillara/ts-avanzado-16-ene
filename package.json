@@ -1,8 +1,9 @@
 {
-  "name": "ts-avanzado",
+  "name": "gorkavi87-mi-primera-libreria",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Creando y subiendo mi primera librería",
+  "main": "public/index.js",
+  "files": ["public"],
   "scripts": {
     "dev": "tsc --watch",
     "build": "webpack --mode production",
@@ -13,7 +14,7 @@
     "test:coverage": "jest --coverage"
   },
   "keywords": [],
-  "author": "",
+  "author": "Gorka Villar",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.2.6",
