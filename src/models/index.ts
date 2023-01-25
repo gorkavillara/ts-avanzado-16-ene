@@ -1,3 +1,5 @@
+import { logMethod, cacheableMethod, measureTime, CacheObject } from "proyecto-ts-libreria-decoradores-gv87"
+
 class Autor {
     nombre: string
     constructor(n: string) {
@@ -8,6 +10,8 @@ class Autor {
     }
 }
 
+const cache: CacheObject = {}
+
 export class Libro {
     titulo: string
     autor: Autor
@@ -16,7 +20,10 @@ export class Libro {
         this.autor = new Autor(n)
     }
 
+    @logMethod
+    @cacheableMethod(cache)
     obtenDatos() {
         console.log(`Título: ${this.titulo}, Autor: ${this.autor.nombre}`)
+        return `Título: ${this.titulo}, Autor: ${this.autor.nombre}`
     }
 }

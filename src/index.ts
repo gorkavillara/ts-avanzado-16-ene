@@ -1,4 +1,6 @@
 import { factorial } from "./controllers";
 import { Libro } from "./models";
 
-export { Libro, factorial }
+const miLibro = new Libro("La caída de los gigantes", "Ken Follet")
+
+miLibro.obtenDatos()
